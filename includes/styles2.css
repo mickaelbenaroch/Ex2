@@ -1,0 +1,332 @@
+
+/*
+ *for the all page, cancel the default margin and padding of the browser.
+ */
+*{
+    padding:0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header,section,nav,footer,article{
+    display: block;
+}
+
+
+/*Layout1+2*/
+#wrapper{
+    margin: 0px auto;
+    width:1004px;
+}
+header{
+    width:1000px;
+    height: 192px;
+    background:  #d6d6d6;
+    position: relative;
+
+}
+header img{
+    position: absolute;
+    top: 47px;
+    left: 450px;
+}
+
+#nav1{
+    width:1000px;
+    height:62px;
+    background-color: #337ab7;
+}
+#nav1 ul {
+    list-style-type: none;
+
+}
+#nav1 li{
+    display: block;
+    float: left;
+    position: relative;
+    width:235px;
+    height:40px;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    text-align: center;
+    margin-top: 11px;
+
+}
+#nav1 li:hover {
+    background-color: #003748;
+    background-position: top;
+}
+#nav1 li a{
+    display: block;
+    margin-top: 13px;
+    color:#ffffff;
+}
+.li1{
+    margin-left: 32px;
+}
+.clear{
+    clear:both;
+}
+
+#main{
+    width:10000px;
+    height:700px;
+}
+.sec1{
+    display: inline-block;
+    width:755px;
+    height: 700px;
+    background-color: #ffffff;
+}
+main aside{
+    display: inline-block;
+    width:245px;
+    height: 700px;
+    background-color: #eeeeee;
+    margin-left: 0px;
+    position: absolute;
+}
+.upBox{
+    position: absolute;
+    margin-top: 117px;
+    margin-left: 45px;
+    width: 700px;
+    height: 120px;
+    background-color: #62c462;
+}
+.midBox{
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 45px;
+    width: 700px;
+    height:200px;
+    background-color: #62c462;
+}
+.downBox{
+    position: absolute;
+    margin-top: 493px;
+    margin-left: 560px;
+    width:185px;
+    height: 125px;
+    background-color: #62c462;
+}
+.sideBox{
+    width:185px;
+    height:125px;
+    background-color: #62c462;
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 50px;
+}
+
+footer{
+    width:1000px;
+    height:52px;
+    background-color: #d6d6d6;
+}
+
+#nav2{
+    width:145px;
+    height: 760px;
+    float: left;
+    background-color: #337ab7;
+    position: relative;
+    display: inline-block;
+
+}
+#nav2 li{
+    display: block;
+    position: relative;
+    width:145px;
+    height:60px;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    text-align: center;
+}
+
+#nav2 li:hover {
+    background-color: #003748;
+}
+#nav2 li a{
+    display: block;
+    color:#ffffff;
+    padding-top: 25px;
+}
+
+#main2{
+    width:855px;
+    height: 760px;
+    float: right;
+    margin-left: 145px;
+    position: absolute;
+}
+#side{
+    width:220px;
+    height: 760px;
+    display: inline-block;
+    background-color: #eeeeee;
+    margin-left: 0px;
+    position: absolute;
+    margin-left: 0px;
+}
+.mainSection{
+    display: inline-block;
+    width:635px;
+    height: 760px;
+    background-color: #ffffff;
+    position: relative;
+    float: right;
+}
+.leftBox{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 5px;
+    width: 190px;
+    height: 510px;
+    background-color: #62c462;
+}
+.midBox1{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 225px;
+    width: 190px;
+    height:325px;
+    background-color: #62c462;
+}
+.midBox2{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 225px;
+    width: 190px;
+    height:390px;
+    background-color: #62c462;
+}
+.rightBox{
+    position: absolute;
+    margin-top: 23px;
+    margin-left:440px;
+    width:190px;
+    height: 125px;
+    background-color: #62c462;
+}
+#side section{
+    position: absolute;
+    margin-top: 260px;
+    margin-left:10px;
+    width:80px;
+    height: 70px;
+    background-color: #62c462;
+
+}
+#fixedfooter{
+    position: fixed;
+    bottom: 0;
+    width:1000px;
+    height:52px;
+    background-color: #d6d6d6;
+}
+
+
+
+
+
+/*layout2*/
+
+#wrapper2{
+    margin: 0px auto;
+    max-width: 1000px;
+    width: 100%;
+}
+#header2{
+    max-width: 1000px;
+    width:100%;
+    height: 192px;
+    background:  #d6d6d6;
+    position: relative;
+    text-align: center;
+
+}
+#header2 img{
+    position: absolute;
+    top: 47px;
+    left: 450px;
+}
+#navLayout2{
+    width:1000px;
+    height:62px;
+    background-color: #337ab7;
+}
+#navLayout2 ul {
+    list-style-type: none;
+
+}
+#navLayout2 li{
+    display: block;
+    float: left;
+    position: relative;
+    width:235px;
+    height:40px;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    text-align: center;
+    margin-top: 11px;
+
+}
+#navLayout2 li:hover {
+    background-color: #003748;
+    background-position: top;
+}
+#navLayout2 li a{
+    display: block;
+    margin-top: 13px;
+    color:#ffffff;
+}.li12{
+    margin-left: 32px;
+}
+
+#m{
+    max-width: 1000px;
+    width: 100%;
+}
+.newBox{
+    height:400px;
+    float: left;
+    position: relative;
+    max-width:333px;
+    width:50%;
+    height:350px;
+
+}
+.lastBox{
+    max-width:333px;
+    width:50%;
+    height:350px;
+    float: left;
+    background-color: yellow;
+    position: relative;
+}
+.starClass{
+    display: none;
+    position: relative;
+    margin-top: 145px;
+    margin-left: 110px;
+}
+.starClassShow{
+    display: block;
+    position: relative;
+    margin-top: 145px;
+    margin-left: 110px;
+}
+.plusClass{
+    display: block;
+    position: relative;
+    margin-top: 145px;
+    margin-left: 110px;
+}
+footerLayout2{
+    max-width: 1000px;
+    width:100%;
+    height:52px;
+    background-color: #d6d6d6;
+}
